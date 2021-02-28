@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778588664874",
+    "project_id": "revised-law-courses",
+    "storage_bucket": "revised-law-courses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778588664874:android:8e559da227280c4cc83f53",
+        "android_client_info": {
+          "package_name": "com.example.myrevisedlawcoursesapp300level"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778588664874-d2afu7ev9nlsc6vsmrakjq0tfnp694db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTRQWf9fAAFm9L1QNfkg041oY6bCbEDbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778588664874-d2afu7ev9nlsc6vsmrakjq0tfnp694db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

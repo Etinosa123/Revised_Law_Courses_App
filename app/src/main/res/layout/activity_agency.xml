@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgencyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:id="@+id/toolbar_agent"/>
+        <TextView
+            android:id="@+id/text_agency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:text="@string/agency1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency2"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/agency3"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency4"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency5"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:text="@string/agency6"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency7"/>
+        <TextView
+            android:textSize="15sp"
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency8"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency9"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textIsSelectable="true"
+            android:text="@string/agency10"/>
+        <TextView
+            android:textSize="15sp"
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency11"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency12"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency13"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency14"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency15"/>
+        <TextView
+            android:textSize="15sp"
+
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency16"/>
+        <TextView
+            android:textSize="15sp"
+
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency17"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency18"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency19"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_height="wrap_content"
+            android:text="@string/agency20"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:text="@string/agency21"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency22"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency23"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency24"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_height="wrap_content"
+            android:text="@string/agency25"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency26"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency27"/>
+        <TextView
+            android:textSize="15sp"
+
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency28"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency29"/>
+        <TextView
+            android:textSize="15sp"
+
+            android:textIsSelectable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency30"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:text="@string/agency31"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency32"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency33"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency34"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:text="@string/agency35"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:textAppearance="?attr/textAppearanceBody2"
+
+            android:textIsSelectable="true"
+            android:layout_height="wrap_content"
+            android:text="@string/agency35"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency36"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency37"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency38"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency39"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency40"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textIsSelectable="true"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency41"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency42"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency43"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency44"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency45"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency46"/>
+        <TextView
+
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency47"/>
+        <TextView
+            android:textIsSelectable="true"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:text="@string/agency48"/>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

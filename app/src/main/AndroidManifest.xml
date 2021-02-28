@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myrevisedlawcoursesapp300level">
+
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ddlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ddlogo"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/Theme.MyRevisedLawCoursesApp300Level">
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".CreditsActivity"
+            android:label="@string/credits"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".QuestionActivity"
+            android:label="@string/questions"
+            android:parentActivityName=".MainActivity" /> <!-- Include the AdActivity configChanges and theme. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2005641929118957~2331645520" /> <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name=".SexualActivity"
+            android:label="@string/sexual"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".SediActivity"
+            android:label="@string/sedi"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".AssemblyActivity"
+            android:label="@string/assembly"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".CyberActivity"
+            android:label="@string/cyber"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".CheatActivity"
+            android:label="@string/cheat"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".FalsePreActivity"
+            android:label="@string/falsepre"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".ArmedRobActivity"
+            android:label="@string/armedrob"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".OffeAnaActivity"
+            android:label="@string/offeana"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".OffeStealActivity"
+            android:label="@string/offesteal"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/search"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".ProsecuteActivity"
+            android:label="@string/prosecute"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".PoliceActivity"
+            android:label="@string/police"
+            android:parentActivityName=".CriminalLawActivity2" />
+        <activity
+            android:name=".TheCjvActivity"
+            android:label="@string/thecjv"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".NNPCActivity"
+            android:label="@string/nnpc"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".BasintoActivity"
+            android:label="@string/basinto"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".NOIActivity"
+            android:label="@string/noi"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".WOIActivity"
+            android:label="@string/woi"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".OwnPetActivity"
+            android:label="@string/ownpet"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".RefOilActivity"
+            android:label="@string/refoil"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".IntOilActivity"
+            android:label="@string/intoil"
+            android:parentActivityName=".OilLawActivity" />
+        <activity
+            android:name=".QPsychologyActivity"
+            android:label="@string/qpsych"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QOilLawActivity2"
+            android:label="@string/qoillaw12"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QOilLawActivity"
+            android:label="@string/qoillaw"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QTortsActivity2"
+            android:label="@string/qtorts12"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QTortsActivity"
+            android:label="@string/qtorts"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QCommercialActivity2"
+            android:label="@string/qcomm12"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QCommercialActivity"
+            android:label="@string/qcomm"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QCriminalLawActivity2"
+            android:label="@string/qcrimlaw12"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".QCriminalLawActivity"
+            android:label="@string/qcrim"
+            android:parentActivityName=".QuestionActivity" />
+        <activity
+            android:name=".SocializeActivity"
+            android:label="@string/social"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".GroupDynActivity"
+            android:label="@string/groupdyn"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".AggrActivity"
+            android:label="@string/aggr"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".SocIntActivity"
+            android:label="@string/socint"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".TheoryActivity"
+            android:label="@string/theory"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".ResMetActivity"
+            android:label="@string/resmet"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".DefPsychActivity"
+            android:label="@string/defpsych"
+            android:parentActivityName=".PsychologyActivity" />
+        <activity
+            android:name=".PsychologyActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PetTechActivity"
+            android:label="@string/pettech"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".SovResActivity"
+            android:label="@string/sovres"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".ArbiOilActivity"
+            android:label="@string/arbioil"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".LiquiGasActivity"
+            android:label="@string/liquigas"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".PetrolTaxActivity"
+            android:label="@string/petroltax"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".OilTransActivity"
+            android:label="@string/oiltrans"
+            android:parentActivityName=".OilLawActivity2" />
+        <activity
+            android:name=".OilLawActivity2"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OilLawActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AnimalLiaActivity"
+            android:label="@string/anilia"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".MaliciousActivity"
+            android:label="@string/mal"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".IntDefameActivity"
+            android:label="@string/intdef"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".DefameActivity"
+            android:label="@string/defi"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".FatalActivity"
+            android:label="@string/fatal"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".EconTortActivity"
+            android:label="@string/econtort"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".VicarActivity"
+            android:label="@string/vicar"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".NuisActivity"
+            android:label="@string/nuis"
+            android:parentActivityName=".TortsActivity2" />
+        <activity
+            android:name=".TortsActivity2"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OccupyActivity"
+            android:label="@string/occupy"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".NegliActivity"
+            android:label="@string/negli"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TrespassCActivity"
+            android:label="@string/trespassc"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TrespassLActivity"
+            android:label="@string/trespassl"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TrespassP"
+            android:label="@string/trespassp"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TortClassActivity"
+            android:label="@string/tortclass"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TortPriActivity"
+            android:label="@string/tortpri"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".DistinTortActivity"
+            android:label="@string/distintort"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TortBackActivity"
+            android:label="@string/backtort"
+            android:parentActivityName=".TortsActivity" />
+        <activity
+            android:name=".TortsActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".TerminationActivity"
+            android:label="@string/termagency"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".DutiesAgencyActivity"
+            android:label="@string/ageduties"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".CreateAgeActivity"
+            android:label="@string/agecreate"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".AgencyActivity"
+            android:label="@string/agency"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".RepossessActivity"
+            android:label="@string/repo"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".HireDynamicActivity"
+            android:label="@string/hiredyn"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".HireActActivity"
+            android:label="@string/hireact"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".DistinHireActivity"
+            android:label="@string/distinhire"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".HirePurchaseActivity"
+            android:label="@string/hire"
+            android:parentActivityName=".CommercialActivity2" />
+        <activity
+            android:name=".CommercialActivity2"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BuyerDutiesActivity"
+            android:label="@string/duties"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".ExaminationActivity"
+            android:label="@string/exam"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".PeerformanceActivity"
+            android:label="@string/perform"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".TransferPropertyActivity"
+            android:label="@string/transfer"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".ImpliedActivity"
+            android:label="@string/implied"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".SaleTermsActivity"
+            android:label="@string/sterm"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".SimilarSaleActivity"
+            android:label="@string/sims"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".SaleActivity"
+            android:label="@string/sale"
+            android:parentActivityName=".CommercialActivity" />
+        <activity
+            android:name=".CommercialActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CriminalLawActivity2"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DefCrimeActivity"
+            android:label="@string/defence"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".StriLiabilityActivity"
+            android:label="@string/strilia"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".PartiesCrimeActivity"
+            android:label="@string/parties"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".GenPriActivity"
+            android:label="@string/genpri"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".HisSouActivity"
+            android:label="@string/hissou"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".CFSActivity"
+            android:label="@string/cfscrim"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".CrimeNatureActivity"
+            android:label="@string/natcrim"
+            android:parentActivityName=".CriminalLawActivity" />
+        <activity
+            android:name=".CriminalLawActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".RateActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
